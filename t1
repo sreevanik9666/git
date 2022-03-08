@@ -1,0 +1,13 @@
+http {
+    server {
+        # Server configuration
+    ]
+}
+server {
+    listen 127.0.0.1:8080;
+    # Additional server configuration
+}server {
+    listen      80;
+    server_name example.org www.example.org;
+    #...
+}

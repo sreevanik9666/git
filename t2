@@ -1,0 +1,21 @@
+http {
+    server {
+        # Server configuration
+    }
+}sserver {
+    listen 127.0.0.1:8080;
+    # Additional server configuration
+server {
+    listen      80;
+    server_name example.org www.example.org;
+    #...
+}}erver {
+    listen 80 default_server;
+    #...
+location /some/path/ {
+    #...
+}}location ~ \.html? {
+    #...
+location ~ \.html? {
+    #...
+}}
