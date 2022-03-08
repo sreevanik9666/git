@@ -1,0 +1,16 @@
+location /wrong/url {
+    return 404;
+}
+The first parameter of return is a response code. The optional second parameter can be the URL of a redirect (for codes 301, 302, 303, and 307) or the text to return in the response body. For example:
+
+location /permanently/moved/url {
+    return 301 http://www.example.com/moved/here;
+server {
+    location /images/ {
+        root /data;
+    }
+
+    location / {
+        proxy_pass http://www.example.com;
+    }
+}}
