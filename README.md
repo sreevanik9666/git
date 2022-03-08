@@ -1,2 +1,6 @@
 # gitwfhghfbhjwfvhjewfvne fnbwvfhjwev
-my slf sreevani i am littele losser
+server {
+    listen      80;
+    server_name example.org www.example.org;
+    #...
+}
